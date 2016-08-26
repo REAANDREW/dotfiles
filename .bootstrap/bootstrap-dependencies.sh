@@ -8,6 +8,7 @@ sudo apt-get -y install exuberant-ctags
 sudo apt-get -y install zsh
 sudo apt-get -y install silversearcher-ag
 sudo apt-get -y install curl git mercurial make binutils bison gcc build-essential
+sudo apt-get -y install fontconfig
 
 sudo -u `whoami` pip install --user "powerline-status"
 

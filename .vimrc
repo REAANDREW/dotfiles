@@ -88,7 +88,7 @@ inoremap jk <esc>
 nmap <silent> <C-D> :NERDTreeToggle<CR>
 " }}}
 " Powerline {{{
-"set encoding=utf-8
+set encoding=utf-8
 "python from powerline.vim import setup as powerline_setup
 "python powerline_setup()
 "python del powerline_setup
@@ -108,6 +108,8 @@ let g:ctrlp_custom_ignore = '\vbuild/|dist/|venv/|target/|\.(o|swp|pyc|egg)$'
 " }}}
 " NERDTree {{{
 let NERDTreeIgnore = ['\.pyc$', 'build', 'venv', 'egg', 'egg-info/', 'dist', 'docs']
+let g:NERDTreeDirArrowExpandable = '+'
+let g:NERDTreeDirArrowCollapsible = '-'
 " }}}
 " Syntastic {{{
 let g:syntastic_python_flake8_args='--ignore=E501'
