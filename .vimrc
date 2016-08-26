@@ -79,6 +79,9 @@ vmap v <Plug>(expand_region_expand)
 vmap <C-v> <Plug>(expand_region_shrink)
 inoremap jk <esc>
 " }}}
+" Silent Shortcuts {{{
+nmap <silent> <C-D> :NERDTreeToggle<CR>
+" }}}
 " Powerline {{{
 "set encoding=utf-8
 "python from powerline.vim import setup as powerline_setup
